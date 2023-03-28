@@ -1,0 +1,14 @@
+
+font-family: 'Montserrat', sans-serif;
+
+Colors pallete
+- f3f3f4 white
+- 0d0a1b black
+- 
+
+
+favicon - <a href="https://www.flaticon.com/free-icons/freelancer" title="freelancer icons">Freelancer icons created by juicy_fish - Flaticon</a>
+
+modelo - https://dribbble.com/shots/16365420-Sign-up-with-illustration 
+feito pela Bouchra.
+

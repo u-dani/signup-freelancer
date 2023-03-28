@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <title>Sign up Freelancer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="l-page">
+        <aside class="c-side-background-image"></aside>
+
+        <main class="l-main-content">
+            <header>
+                <h1 class="c-main-title">Manage your freelance business with us!</h1>
+                <p>Takes less than 10 minutes to fill out all the information needed to register your business.</p>
+            </header>
+
+            <form class="l-sign-up-form">
+                <label for="ifull-name" class="c-input-field">
+                    <input type="text" name="full-name" id="ifull-name" autocomplete="name" placeholder="Full Name" required />
+                    <span class="material-symbols-outlined">person</span>
+                </label>
+
+                <label for="icontact" class="c-input-field">
+                    <input type="text" name="contact" id="icontact" placeholder="E-mail or Phone" required />
+                    <span class="material-symbols-outlined">mail</span>
+                </label>
+
+                <label for="ipassword" class="c-input-field">
+                    <input type="password" name="password" id="ipassword" autocomplete="new-password" placeholder="Password" required />
+                    <span class="material-symbols-outlined">lock</span>
+                </label>
+
+                <label for="iconfirm-password" class="c-input-field">
+                    <input type="password" name="confirm-password" id="iconfirm-password" autocomplete="new-password" placeholder="Confirm Password" required />
+                    <span class="material-symbols-outlined">lock</span>
+                </label>
+
+                <label for="iterms-of-service-checkbox" class="c-checkbox-field">
+                    <input type="checkbox" name="terms-of-service-checkbox" id="iterms-of-service-checkbox" required/>
+                    <span>I agree to the terms of service</span>
+                </label>
+
+                <div>
+                    <button type="submit">Sign up</button>
+                    <a href="#">Sign in</a>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
