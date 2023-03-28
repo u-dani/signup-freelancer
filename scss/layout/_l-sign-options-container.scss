@@ -1,0 +1,7 @@
+
+@use '../mixins' as *;
+
+.l-sign-options-container {
+    @include flex-center;
+    gap: 20px;
+}

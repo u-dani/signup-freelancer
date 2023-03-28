@@ -1,0 +1,9 @@
+
+@use '../mixins' as *;
+
+.l-page {
+    @include flex-center(row, space-around);
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

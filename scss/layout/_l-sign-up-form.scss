@@ -1,0 +1,8 @@
+
+@use '../mixins' as *;
+
+.l-sign-up-form {
+    width: 100%;
+    @include flex-center(column, center, start);
+    gap: 20px;
+}

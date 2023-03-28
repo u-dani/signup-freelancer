@@ -1,0 +1,11 @@
+
+.c-side-background-image {
+    flex: 1;
+    height: 100vh;
+    background: {
+        image: url('../images/illustration.png');
+        repeat: no-repeat;
+        size: 90vh;
+        position: center;
+    };
+}

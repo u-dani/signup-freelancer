@@ -1,0 +1,23 @@
+
+@use 'variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $default-font-family;
+    color: map-get($colors, primary);
+}
+
+html, body {
+    background-color: map-get($colors, bg-color);
+    min-height: 100vh;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+}

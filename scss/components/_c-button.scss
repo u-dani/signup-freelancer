@@ -1,0 +1,10 @@
+
+@use '../variables' as *;
+
+.c-button {
+    padding: .8rem 2rem;
+    background-color: map-get($colors, primary);
+    color: map-get($colors, bg-color);
+    border: none;
+    border-radius: 3px;
+}

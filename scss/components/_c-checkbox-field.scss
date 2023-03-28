@@ -1,0 +1,51 @@
+
+@use '../variables' as *;
+
+.c-checkbox-field {
+    position: relative;
+
+    input {
+        display: none;
+        &:checked ~ span {
+            &::before {
+                background-color: map-get($colors, primary);
+            }
+    
+            &::after {
+                border-color: map-get($colors, bg-color);
+            }
+        }
+    }
+
+    span {
+        margin-left: 25px;
+
+        &::before {
+            content: "";
+            width: 13px;
+            height: 13px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            border: 1px solid #333;
+            transform: translateY(-50%);
+            cursor: pointer;
+            border-radius: 1px;
+        }
+
+        &::after {
+            content: "";
+            width: 10px;
+            height: 5px;
+            position: absolute;
+            border: 3px solid transparent;
+            left: 1px;
+            bottom: 7px;
+            border-left: none;
+            border-bottom: none;
+            transform: rotate(120deg);
+            cursor: pointer;
+            border-radius: 1px;
+        }
+    }
+}

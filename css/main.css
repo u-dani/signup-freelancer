@@ -1,3 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #0d0a1b;
+}
 
+html, body {
+  background-color: #f3f3f4;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+.l-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.l-main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px clamp(30px, 8vw, 80px);
+}
+.l-main-content .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.l-sign-up-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+.l-sign-options-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.c-side-background-image {
+  flex: 1;
+  height: 100vh;
+  background-image: url("../images/illustration.png");
+  background-repeat: no-repeat;
+  background-size: 90vh;
+  background-position: center;
+}
+
+.c-input-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #0d0a1b;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+.c-input-field input {
+  flex: 1;
+  font-size: 1.1rem;
+  background-color: transparent;
+  border: none;
+}
+
+.c-checkbox-field {
+  position: relative;
+}
+.c-checkbox-field input {
+  display: none;
+}
+.c-checkbox-field input:checked ~ span::before {
+  background-color: #0d0a1b;
+}
+.c-checkbox-field input:checked ~ span::after {
+  border-color: #f3f3f4;
+}
+.c-checkbox-field span {
+  margin-left: 25px;
+}
+.c-checkbox-field span::before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border: 1px solid #333;
+  transform: translateY(-50%);
+  cursor: pointer;
+  border-radius: 1px;
+}
+.c-checkbox-field span::after {
+  content: "";
+  width: 10px;
+  height: 5px;
+  position: absolute;
+  border: 3px solid transparent;
+  left: 1px;
+  bottom: 7px;
+  border-left: none;
+  border-bottom: none;
+  transform: rotate(120deg);
+  cursor: pointer;
+  border-radius: 1px;
+}
+
+.c-button {
+  padding: 0.8rem 2rem;
+  background-color: #0d0a1b;
+  color: #f3f3f4;
+  border: none;
+  border-radius: 3px;
+}
 
 /*# sourceMappingURL=main.css.map */
