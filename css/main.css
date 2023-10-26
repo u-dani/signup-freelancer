@@ -19,6 +19,13 @@ input {
   outline: none;
 }
 
+a {
+  color: #333;
+}
+a:hover {
+  color: gray;
+}
+
 .l-page {
   display: flex;
   flex-direction: row;
@@ -45,6 +52,9 @@ input {
   justify-content: center;
   align-items: center;
   gap: 15px;
+}
+.l-main-content .main-title {
+  font-size: 1.8rem;
 }
 
 .l-sign-up-form {
@@ -80,35 +90,37 @@ input {
   align-items: center;
   width: 100%;
   border: 1px solid #0d0a1b;
-  padding: 0.5rem;
-  border-radius: 3px;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
 }
 .c-input-field input {
   flex: 1;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   background-color: transparent;
   border: none;
 }
 
 .c-checkbox-field {
   position: relative;
+  display: flex;
 }
 .c-checkbox-field input {
   display: none;
 }
 .c-checkbox-field input:checked ~ span::before {
-  background-color: #0d0a1b;
+  background-color: #333;
 }
 .c-checkbox-field input:checked ~ span::after {
   border-color: #f3f3f4;
 }
 .c-checkbox-field span {
-  margin-left: 25px;
+  margin-left: 20px;
+  font-size: 0.8rem;
 }
 .c-checkbox-field span::before {
   content: "";
-  width: 13px;
-  height: 13px;
+  width: 12px;
+  height: 12px;
   position: absolute;
   top: 50%;
   left: 0;
@@ -119,15 +131,15 @@ input {
 }
 .c-checkbox-field span::after {
   content: "";
-  width: 10px;
-  height: 5px;
+  width: 9px;
+  height: 4px;
   position: absolute;
   border: 3px solid transparent;
   left: 1px;
-  bottom: 7px;
+  bottom: 6px;
   border-left: none;
   border-bottom: none;
-  transform: rotate(120deg);
+  transform: rotate(130deg);
   cursor: pointer;
   border-radius: 1px;
 }
@@ -138,6 +150,9 @@ input {
   color: #f3f3f4;
   border: none;
   border-radius: 3px;
+}
+.c-button:hover {
+  background: #1f1840;
 }
 
 /*# sourceMappingURL=main.css.map */
