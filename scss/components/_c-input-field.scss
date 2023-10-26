@@ -6,12 +6,12 @@
     @include flex-center;
     width: 100%;
     border: 1px solid map-get($colors, primary);
-    padding: .5rem;
-    border-radius: 3px;
+    padding: .4rem .6rem;
+    border-radius: 4px;
 
     input {
         flex: 1;
-        font-size: 1.1rem;
+        font-size: .9rem;
         background-color: transparent;
         border: none;
     }
