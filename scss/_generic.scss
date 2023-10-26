@@ -23,8 +23,8 @@ input {
 
 a {
     color: map-get($colors, secondary);
-    
+
     &:hover {
-        color: lighten(#333, 30)
+        color: lighten(map-get($colors, secondary), 30)
     }
 }
