@@ -12,4 +12,8 @@
         @include flex-center(column);
         gap: 15px;
     }
+
+    .main-title {
+        font-size: 1.8rem;
+    }
 }
