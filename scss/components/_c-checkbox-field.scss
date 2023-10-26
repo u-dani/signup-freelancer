@@ -3,12 +3,13 @@
 
 .c-checkbox-field {
     position: relative;
+    display: flex;
 
     input {
         display: none;
         &:checked ~ span {
             &::before {
-                background-color: map-get($colors, primary);
+                background-color: map-get($colors, secondary);
             }
     
             &::after {
@@ -18,16 +19,17 @@
     }
 
     span {
-        margin-left: 25px;
+        margin-left: 20px;
+        font-size: .8rem;
 
         &::before {
             content: "";
-            width: 13px;
-            height: 13px;
+            width: 12px;
+            height: 12px;
             position: absolute;
             top: 50%;
             left: 0;
-            border: 1px solid #333;
+            border: 1px solid map-get($colors, secondary);
             transform: translateY(-50%);
             cursor: pointer;
             border-radius: 1px;
@@ -35,15 +37,15 @@
 
         &::after {
             content: "";
-            width: 10px;
-            height: 5px;
+            width: 9px;
+            height: 4px; 
             position: absolute;
             border: 3px solid transparent;
             left: 1px;
-            bottom: 7px;
+            bottom: 6px;
             border-left: none;
             border-bottom: none;
-            transform: rotate(120deg);
+            transform: rotate(130deg);
             cursor: pointer;
             border-radius: 1px;
         }
