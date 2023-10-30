@@ -19,7 +19,7 @@ Você precisa ter o Git e o Node.js instalado na sua máquina.
 
 ```bash
 # Clonar repositório
-$ git clone https://github.com/u-dani/sign-up-freelancer.git
+$ git clone https://github.com/u-dani/signup-freelancer.git
 
 # Instalar o SASS como dependência
 $ npm install --save-dev sass
