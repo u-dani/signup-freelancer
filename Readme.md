@@ -3,8 +3,10 @@
 Página de inscrição de uma plataforma que ajuda o profissional Freelancer a gerenciar seus projetos. Usei como modelo o design https://dribbble.com/shots/16365420-Sign-up-with-illustration, feito pela Bouchra.
 
 ## 🌠 Demo
-
 Github Pages -> https://u-dani.github.io/sign-up-freelancer
+
+<img src="https://raw.githubusercontent.com/u-dani/sign-up-freelancer/main/images/demo-desktop.jpg"/>
+<img src="https://raw.githubusercontent.com/u-dani/sign-up-freelancer/main/images/demo-mobile.jpg"/>
 
 ## 🛠 Tecnologias usadas
 
@@ -28,7 +30,7 @@ $ sass --watch scss/main.scss:css/main.css
 
 Abra o arquivo index.html no navegador.
 
-## Links dos conteúdos
+### Links dos conteúdos
 
 - Favicon - <a href="https://www.flaticon.com/free-icons/freelancer" title="freelancer icons">Freelancer icons created by juicy_fish - Flaticon</a>
 - Ilustração - <a href="https://storyset.com/internet">Internet illustrations by Storyset</a>
